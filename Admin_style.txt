@@ -1,0 +1,694 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* index.php */
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+
+}
+
+#container .header img {
+   
+    width: 524px;
+   
+}
+
+#container .content {
+    position: absolute;
+    width: 780px;
+    height: 500px;
+    top: 270px;
+    border: 1px solid #3BBFC3;
+    box-shadow: 4px 4px 5px 3px #3bbfc3;
+    border-radius: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#container .content h1 {
+    font-family: "Inter";
+    font-size: 64px;
+    color: #34bfc3;
+    height: 67px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.content form {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 40px;
+    padding-top: 190px;
+    color: #3BBFC3;
+    /* text-align-last:left; */
+    
+}
+
+input#adminname {
+    box-sizing: border-box;
+    width: 325px;
+    height: 39px;
+    border: 1px solid #34BFC2;
+    /* padding: 0px; */
+    font-size: x-large;
+    color: #34bfc3;
+}
+
+input#adminpassword {
+    box-sizing: border-box;
+    width: 325px;
+    height: 39px;
+    font-size: x-large;
+    margin-left: 9px;
+    border: 1px solid #34BFC2;
+    color: #34bfc3;
+}
+
+input#login {
+    width: 130px;
+    height: 42px;
+    border: 1px solid #34BFC2;
+    border-radius: 5px;
+    background-color: white;
+    color: #34BFC2;
+    text-align-last: center;
+    margin-top: 40px;
+    margin-left: 215px;
+
+}
+   
+
+
+::-webkit-input-placeholder {
+    font-size: 24px;
+    font-family: 'Inter';
+    opacity: 0.2;
+    color: #34bfc3;
+    
+    
+}
+
+/* Media Query of index.php */
+/* For 1366 Resolution */  
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{ /* STYLES GO HERE */
+
+    
+    #container .header img {
+   
+        width: 300px;
+       
+    }
+
+      
+#container .content {
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    border: 1px solid #3BBFC3;
+    box-shadow: 4px 4px 5px 3px #3bbfc3;
+    border-radius: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+    
+
+#container .content h1 {
+        font-size: 36px;
+   
+}
+
+.content form {
+    position: absolute;
+    font-size: 24px;
+    padding-top: 120px;
+    
+}
+
+
+input#adminname {
+   
+    width: 250px;
+    height: 28px;
+   
+}
+
+input#adminpassword {
+    /* box-sizing: border-box; */
+    width: 250px;
+    height: 28px;
+    font-size: 16px;
+    margin-left: 4px;
+    
+}
+
+input#login {
+    width: 60px;
+    height: 24px;
+    
+
+}
+
+
+::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+
+} 
+
+ 
+    
+
+
+/* index.php */
+
+/* top.php */
+
+
+/* Navbar */
+#navbar img {
+    position: absolute;
+    width: 270px;
+    height: 90px;
+    /* padding: 10px; */
+    left: 30px;
+} 
+ #navbar {
+    position: relative;
+    width: 1920px;
+    height: 10vh;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.logout {
+    position: absolute;
+    /* width: 380px; */
+    /* height: 60px; */
+    right: 30px;
+    top: 30px;
+    font-size: 30px;
+    line-height: 36px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logout a {
+    text-decoration: none;
+    color: #282a36;
+    padding-right: 30px;
+}
+
+
+/* For 1366 Resolution */  
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{ /* STYLES GO HERE */
+
+    #navbar {
+        /* position: relative; */
+        max-width: 1366;
+        height: 10vh;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+
+    #navbar img {
+        position: absolute;
+        width: 220px;
+        height: 70px;
+        /* padding: 10px; */
+        left: 30px;
+    }
+
+    .logout {
+        position: absolute;
+        width: 380px;
+        height: 60px;
+        right: 30px;
+        top: 18px;
+        font-size: 30px;
+        line-height: 36px;
+        /* display: flex; */
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #Aside {
+        position: absolute;
+        width: 300px;
+        height: 90vh;
+        /* top: 10vh; */
+        background: gray;
+    }
+
+    #right .topic {
+        /* position: absolute; */
+        width: 1066;
+        /* height: 747px; */
+        right: 0px;
+        bottom: 0px;
+    }
+    
+
+} 
+
+/* top.php */
+
+
+
+/* Admin Link */
+
+#Aside {
+    position: absolute;
+    width: 335px;
+    height: 90vh;
+    /* top: 10vh; */
+    background: gray;
+}
+
+
+.Aside_item h3 a {
+    position: absolute;
+    left: 48px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 77px;
+    color: black;
+    text-decoration: none;
+    /* background-color: #000000; */
+
+}
+
+.Aside_item .link a {
+    width: 150px;
+    height: 20px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.link {
+    margin: 55px;
+    padding: 70px 0 0 0;
+}
+
+/* Admin link */
+
+/* WELCOME TO ADMIN PANEL */
+
+#right {
+    margin: 0;
+    padding: 0;
+}
+
+.topic h2 {
+    position: absolute;
+    width: 960px;
+    height: 400px;
+    left: 368px;
+    top: 200px;
+    font-family:cursive;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 128px;
+    text-align: center;
+    color: #282a36;
+    letter-spacing: 20px;
+}
+
+#right .topic {
+    position: absolute;
+width: 1585px;
+height: 963px;
+right: 0px;
+bottom: 0px;
+}
+
+
+/* User */
+
+.container {
+    /* margin: 0px; */
+    /* position: relative; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 64px; */
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+
+
+/* User */
+
+
+
+/* Add User CSS */
+
+
+
+#ADDUSER {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+#ADDUSER .adduser1 {
+    position: absolute;
+    width: 785px;
+    height: 503px;
+    left: 720px;
+    top: 150px;
+    border: 1px solid #3BBFC3;
+    box-shadow: 4px 4px 5px 3px #3bbfc3;
+}
+
+.adduser1 .Topic1 {
+    max-width: 785px;
+    height: 50px;
+    background-color: #34bfc3;
+}
+
+.adduser1 .Topic1 h2 {
+    color: white;
+    font-size: 30px;
+   text-align: center;
+   line-height: 50px;
+}
+
+.adduser1 .Topic2 {
+    margin: 100px;
+
+}
+
+.list {
+    
+    padding-right: 225px;
+}
+
+
+.form-group {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-group  label {
+    
+    padding-top: 10px;
+}
+
+
+input#exampleInputEmail1 {
+    font-size: 24px;
+    border: 1px solid #34BFC2;
+    color: #34bfc3;
+    
+}
+
+.list select{
+    border: 1px solid #34BFC2;
+}
+   
+
+.list select option{
+    border: 1px solid #34BFC2;
+}
+
+
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul .dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+input#save {
+    width: 80px;
+    height: 32px;
+    border: 1px solid #34BFC2;
+    border-radius: 5px;
+    background-color:#34bfc3;
+    color:white;
+    text-align-last: center;
+    margin-top: 20px;
+    margin-left: 285px;
+
+}
+
+
+/* Add User */
+
+/* Update User */
+.form-group-update {
+   
+        font-size: 25px;
+        display: flex;
+        justify-content: initial;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+.updatelist {
+ 
+    height: 44px;
+   
+}
+
+.updatelist select {
+    height: 30px;
+    width: 170px;
+    font-size: 18px;
+    border: 1px solid #34BFC2;
+    margin-left: 170px;
+}
+
+
+input#show {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #34BFC2;
+    border-radius: 5px;
+    background-color:#34bfc3;
+    color:white;
+   
+
+}
+
+.show {
+    height: 44px;
+    margin-left: 44px;
+}
+
+input#update {
+    width: 80px;
+    height: 32px;
+    border: 1px solid #34BFC2;
+    border-radius: 5px;
+    background-color:#34bfc3;
+    color:white;
+    text-align-last: center;
+    margin-top: 20px;
+    margin-left: 285px;
+
+}
+
+/* Update User */
+
+/* Delete User */
+.form-group-delete {
+    font-size: 25px;
+    display: -webkit-inline-box;
+    /* justify-content: space-between; */
+    /* align-items: first baseline; */
+    /* flex-direction: row; */
+}
+
+.deletelist select {
+    height: 30px;
+    width: 208px;
+    font-size: 18px;
+    border: 1px solid #34BFC2;
+    margin-left: 150px;
+}
+
+input#delete{
+    width: 80px;
+    height: 32px;
+    border: 1px solid #34BFC2;
+    border-radius: 5px;
+    background-color:#34bfc3;
+    color:white;
+    text-align-last: center;
+    margin-top: 20px;
+    margin-left: 170px;
+
+}
+
+/* Delete User */
+
+
+/* Add Category */
+
+
+.form-group-details {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#freeform{
+    color: #34bfc3;
+    border: 1px solid #34BFC2;
+    text-overflow: ellipsis;
+}
+
+input#exampleInputcategory {
+    width: 310px;
+    font-size: 24px;
+    border: 1px solid #34BFC2;
+    color: #34bfc3;
+}
+
+input[type="file"] {
+    font-size: 16px;
+    padding-right: 8px;
+    padding-top: 10px;
+}
+
+
+/* Add Category */
+
+/* Update Category */
+
+.form-group-category {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    align-items: center;
+}
+
+.updatecategory select {
+    height: 30px;
+    width: 215px;
+    font-size: 18px;
+    border: 1px solid #34BFC2;
+    margin-left: 108px;
+}
+
+
+.show {
+    height: 44px;
+    margin-left: 10px;
+}
+
+/* Update Category */
+
+/* Add Subcategory */
+
+/* Add Subcategory */
+
+
+/* Update Subcategory */
+
+.form-group-updatecategory{
+    font-size: 25px;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.updatecategoryname select {
+    height: 30px;
+    width: 215px;
+    font-size: 18px;
+    border: 1px solid #34BFC2;
+    /* margin-left: 75px; */
+
+    margin-left: 106px;
+    margin-top: 8px;
+
+
+}
+
+/* Update Subcategory */
+
+/* Delete Subcategory */
+
+
+
+.deletelist1 select {
+    height: 30px;
+    width: 208px;
+    font-size: 18px;
+    border: 1px solid #34BFC2;
+    margin-left: 118px;
+   
+}
+
+.form-group-delete {
+padding-top: 10px;
+}
+/* Delete Subcategory */
