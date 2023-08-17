@@ -18,6 +18,7 @@ Password: abinas
 •	Booking system will be made user-friendly.
 
 
+
 # Expected Outcomes
 •	The User will be able to book the packages in this website through their email.
 •	The User should provide or fill the details according to the system’s requirement. 
